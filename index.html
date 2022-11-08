@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="author" content="Patricia Krens">
+      <meta name="description" content="Dit is het huiswerk van les 25">
+            <title>huiswerk les 25</title>
+            <script src="http://code.jquery.com/jquery-3.1.0.min.js">
+            </script>
+            <script type="text/JavaScript">
+              // Knop //
+              $(document).ready(function() {
+                $("#knop").click(function() {
+                  var dier = $("#idtekst").val();
+                  window.alert(dier + "? Goede keus!");
+                });
+              });
+            </script>
+  </head>
+  <body>
+    <form>
+      Wat is uw lievelingsdier?
+        <input type="text" id="idtekst">
+        <input id="knop" name="knop" type="button"
+        value="Klik hier!">
+    </form>
+    <noscript>
+    Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+    </noscript>
+  </body>
+</html>
